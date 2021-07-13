@@ -1,0 +1,5 @@
+<%= form_with(url: "/register", method: :post) do %>
+  <%= label_tag(:query, "Password") %>
+  <%= text_field_tag(:query) %>
+  <%= submit_tag("Enter") %>
+<% end %>
